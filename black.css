@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+li,
+a,
+button {
+  font-family: sans-serif;
+  font-weight: 540;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  column-gap: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10px;
+}
+svg {
+  cursor: pointer;
+  margin-left: 80px;
+}
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a:hover {
+  color: rgb(149, 149, 149);
+}
+button {
+  padding: 9px 25px;
+  background-color: rgb(145, 145, 145);
+  color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-right: 20px;
+}
+button:hover {
+  background-color: #000000;
+}
+.content1 p {
+  margin: 50px;
+}
+.content1 {
+  display: inline-block;
+  grid-column: span 24 / auto;
+  width: 100%;
+  display: grid;
+  column-gap: 40px;
+  font-size: 20px;
+  line-height: 1.3;
+  color: rgb(139, 138, 138);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 40px;
+}
+.content2 div h1 {
+  transform: translateY(-8px);
+  margin-bottom: 60px;
+}
+.content2 div h1 span {
+  display: block;
+  font-size: 5vw;
+  line-height: 1;
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+  transition: opacity 0.345s ease 0s, transform 0.345s ease 0s;
+  color: white;
+  margin-left: 40px;
+}
+span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: white;
+  margin-left: 80px;
+}
+.learn {
+  color: white;
+  margin-left: 28px;
+}
+.but button {
+  color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative;
+  background-color: rgb(253, 229, 43);
+  padding: 15px 20px 15px;
+  margin-left: 80px;
+  margin-bottom: 92px;
+}
+.image {
+  position: relative;
+  height: 180vh;
+  background-color: white;
+  margin-bottom: 200px;
+  border-radius: 16px;
+  opacity: 0.3;
+  transform: translate3d(0px, 0px, 0px);
+  transition: all 0.8s ease 2.2s;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+.pricing {
+  max-width: 1080px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+.price-container {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.pricing-tag {
+  width: 200px;
+  height: 300px;
+}
+.pricing-tag button {
+  padding: 4px 17px;
+  background-color: rgb(145, 145, 145);
+  color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-right: 20px;
+}
+.card {
+  width: 321px;
+  height: 606px;
+  display: inline-block;
+  background-color: rgb(227 227 227 / 15%);
+  color: #fff;
+  border-radius: 30px;
+}
+.card h4 {
+  padding-bottom: 145px;
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(167, 167, 167);
+}
+.card p {
+  padding-bottom: 0px;
+  margin: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: -55px;
+  font-size: 17px;
+}
+.card a {
+  padding-bottom: 20px;
+  margin: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 1px;
+  color: #fff;
+}
+.card ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 37px;
+  padding-bottom: 3px;
+}
+.card a button {
+  color: black;
+  background-color: yellow;
+  margin-left: 150px;
+  margin-top: -9px;
+}
+.card h6 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 1px;
+}
